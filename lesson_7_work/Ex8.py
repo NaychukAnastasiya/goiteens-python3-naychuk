@@ -1,0 +1,33 @@
+# Вивести час у різних форматах
+# mm/dd/yy
+# NameOfDay Month DateOfDay hh:mm:ss year ####
+
+import datetime
+x = datetime.datetime.now()
+print("%a   : ",x.strftime("%a"))
+print("%A   : ",x.strftime("%A"))
+print("%w   : ",x.strftime("%w"))
+print("%d   : ",x.strftime("%d"))
+print("%b   : ",x.strftime("%b"))
+print("%B   : ",x.strftime("%B"))
+print("%m   : ",x.strftime("%m"))
+print("%y   : ",x.strftime("%y"))
+print("%Y   : ",x.strftime("%Y"))
+print("%H   : ",x.strftime("%H"))
+print("%I   : ",x.strftime("%I"))
+print("%p   : ",x.strftime("%p"))
+print("%M   : ",x.strftime("%M"))
+print("%S   : ",x.strftime("%S"))
+print("%f   : ",x.strftime("%f"))
+print("%z   : ",x.strftime("%z"))
+print("%Z   : ",x.strftime("%Z"))
+print("%j   : ",x.strftime("%j"))
+print("%U   : ",x.strftime("%U"))
+print("%W   : ",x.strftime("%W"))
+print("%c   : ",x.strftime("%c"))
+print("%x   : ",x.strftime("%x"))
+print("%X   : ",x.strftime("%X"))
+print("%%   : ",x.strftime("%%"))
+print("%G   : ",x.strftime("%G"))
+print("%u   : ",x.strftime("%u"))
+print("%V   : ",x.strftime("%V"))
