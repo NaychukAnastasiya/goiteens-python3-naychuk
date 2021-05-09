@@ -4,4 +4,4 @@ def is_in_list(l, e):
         return True
     else:
         return False
-print(is_in_list(['Ярослав', 'Богдан', 'Катя', 'Євген'], "Євген"))
+print(is_in_list(['Ярослав', 'Богдан', 'Катя', 'Євген'], "Євгенпше"))
